@@ -25,7 +25,7 @@ export const Presentation = () => {
                 </div>
             </div>
             <div className="">
-                <Image src="/avatar_flash.png" alt="Profile pic" width={250} height={250} />
+                <Image src="/avatar_flash.png" alt="Profile pic" width={230} height={230} />
             </div>
         </Container>
 
