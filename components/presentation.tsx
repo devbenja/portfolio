@@ -28,6 +28,6 @@ export const Presentation = () => {
                 <Image src="/avatar_flash.png" alt="Profile pic" width={230} height={230} />
             </div>
         </Container>
-
+        
     );
 }
