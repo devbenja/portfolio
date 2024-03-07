@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BenjaDev Portfolio",
+  title: "Benja Portfolio",
   description: "LandingPage by BenjaDev",
 };
 

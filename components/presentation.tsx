@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { buttonVariants } from "./ui/button";
 import { Mail, Paperclip } from "lucide-react";
-import Container from "./container";
+import Container from "./shared/container";
 
 
 export const Presentation = () => {
@@ -13,12 +13,12 @@ export const Presentation = () => {
                 <h1 className="text-4xl font-bold mb-3">Benjamín Carías 🧑🏽‍💻</h1>
                 <h2 className="text-2xl text-gray-400">Software Developer</h2>
                 <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start mt-10 mx-auto">
-                    <Link className={buttonVariants()} href="#contact">
+                    <Link className={buttonVariants()} href="#about-me">
                         <Mail className="mr-2" /> Contact Me
                     </Link>
 
                     <Link className={buttonVariants({ variant: 'secondary' })}
-                        href="/cv-tarre.pdf"
+                        href="/CV_BenjaminCarias.pdf"
                         target="_blank">
                         <Paperclip className="mr-2" /> Download CV
                     </Link>
